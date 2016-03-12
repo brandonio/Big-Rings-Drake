@@ -1,6 +1,6 @@
 chorus = ["I got a really big team", "They need some really big rings", "They need some really nice things", "Better be comin' with no strings"]
 
-def big_rings_by_drake(lst):
+def big_rings_by_drake():
 	return [repeat() for x in range(2)]
 
 def repeat(lst=chorus):
@@ -13,4 +13,4 @@ def repeat(lst=chorus):
 		repeat(new)
 		print(lst[0])
 
-big_rings_by_drake(chorus)
+big_rings_by_drake()
